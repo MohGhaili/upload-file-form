@@ -1,0 +1,37 @@
+.file-span {
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1px solid #4FD666;
+    color: #4FD666;
+    float: left;
+}
+span {
+    vertical-align: top;
+}
+
+.file-span span:first-child{
+    text-align: center;
+    cursor: pointer;
+    background-color: rgb(88, 78, 100);
+    border-right: 0;
+}
+
+progress {
+    display: block;
+}
+
+
+.file-span:first-child {
+    background-color: red;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
