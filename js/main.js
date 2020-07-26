@@ -1,5 +1,5 @@
 var fileChooser = document.querySelector('.upload input[type=file]');
-  var preview = document.querySelector('.user-pic');
+var preview = document.querySelector('.user-pic');
 
   fileChooser.addEventListener('change', function () {
     var file = fileChooser.files[0];

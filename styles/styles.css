@@ -7,11 +7,13 @@
 }
 span {
     vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    overflow: auto;
 }
 
 .file-span span:first-child{
-    text-align: center;
-    cursor: pointer;
     background-color: rgb(88, 78, 100);
     border-right: 0;
 }
@@ -35,3 +37,8 @@ progress {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+
+ .col-md-12 {
+    padding-right: 0;
+padding-left: 0;
+ }

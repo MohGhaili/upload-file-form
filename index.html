@@ -9,9 +9,9 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="container">
-        <div class="row mt-3 col-sm-12">
-            <form method="POST" class="user-form mx-auto col">
+    <div class="container mt-5">
+        <div class="row">
+            <div class="form-group col-md-6 file-upload">
                 <div class="form-group col-sm-12 upload">
                     <label class="custom-file">
                         <input type="file" name="" id="" placeholder="uploaddd" class="custom-file-input visually-hidden" aria-describedby="fileHelpId">
@@ -20,23 +20,22 @@
                                 <i class="fa fa-upload"></i>
                                 Choose your file
                             </span>
-                            <span class="custom-file-control-2 col-md-8">No file selected</span>
+                            <span class="custom-file-control-2 col-md-6">No file selected</span>
                         </div>
                     </label>
                 </div>
-
                 <div class="form-group col-sm-12">
-                    <progress value="40" max="100"></progress>
+                    <progress class="col-sm-12" value="40" max="100"></progress>
                 </div>
 
                 <div class="form-group col-sm-12" >
                     <button type="button" class="btn btn-primary">Upload</button>
                 </div>
+            </div>
 
-                <div class="form-group file-image">
-                    <img src="#" class="img-fluid user-pic" height="240" width="240" alt="">
-                </div>
-            </form>
+            <div class="form-group col-md-6 file-image">
+                <img src="#" class="img-fluid user-pic" height="240" width="240" alt="">
+            </div>
         </div>
     </div>
 
